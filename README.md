@@ -1,2 +1,2 @@
-# west-nhs-cs-log
-The West NHS community service log
+# west-nhs-CSHS-log
+The West CSHS community service log
