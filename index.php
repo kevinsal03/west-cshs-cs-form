@@ -69,7 +69,7 @@ if ( !empty($_GET["query"]) ) {
                     echo "<thead><tr><td>Email</td><td>Last Name, First Name</td><td>Grade</td><td>Computer Science Related?</td><td>Activity</td><td>Activity Hours</td><td>Dates</td><td>Contact</td></tr></thead>";
                     foreach ($queryResp as $row) {
                        echo "<tr>";
-                       $totalHours = $totalHours + $row[4];
+                       $totalHours = $totalHours + $row[5];
                        foreach ($row as $column) {
                           echo "<td>$column</td>";
                        }
