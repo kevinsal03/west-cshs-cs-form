@@ -46,12 +46,12 @@ if ( !empty($_GET["query"]) ) {
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <title>West NHS Community Service</title>
+    <title>West CSHS Community Service</title>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">West NHS</a>
+            <a class="navbar-brand" href="/">West CSHS</a>
         </div>
     </nav>
 
