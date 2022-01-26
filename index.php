@@ -19,7 +19,7 @@ $service = new Google_Service_Sheets($client);
 
 $spreadsheetId = "1V3ibQx8ds5cmkLU5-MuzGLaIR0Z0XugMeMYZ4ckm2jE";
 
-$get_range = "Form Responses 1!B2:H";
+$get_range = "Form Responses 1!B2:I";
 
 if ( !empty($_GET["query"]) ) {
     $response = $service->spreadsheets_values->get($spreadsheetId, $get_range);
